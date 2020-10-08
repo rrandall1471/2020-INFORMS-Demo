@@ -47,7 +47,7 @@ $$\text{Minimize}\,\sum_{r\in\mathcal R}\sum_{t\in\mathcal T} \theta_{rt}\cdot x
 
 Each resource can only be assigned tasks whose total time must be no more than their maximum hours for a day.
 
-$$\sum_{t\in\mathcal T} \gamma_t \cdot x_{rt} \le \gamma_r \qquad\forall r\in\mathcal R$$
+$$\sum_{t\in\mathcal T} \eta_t \cdot x_{rt} \le \gamma_r \qquad\forall r\in\mathcal R$$
 
 ### 4.2 Assign Each Task to only One Resource
 
