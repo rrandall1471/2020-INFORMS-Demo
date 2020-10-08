@@ -1,0 +1,117 @@
+name: informs_demo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+- apipkg
+- appdirs
+- asn1crypto
+- atomicwrites
+- attrs
+- backcall
+- black
+- blas
+- ca-certificates
+- certifi
+- cffi
+- chardet
+- click
+- colorama
+- colour
+- cryptography
+- dask
+- decorator
+- execnet
+- flask-cors
+- flask-marshmallow
+- flask-migrate
+- flask-sqlalchemy
+- flask
+- hypothesis
+- idna
+- importlib_metadata
+- intel-openmp
+- ipykernel
+- ipython_genutils
+- ipython
+- itsdangerous
+- jedi
+- jinja2
+- jsonschema
+- jupyter_client
+- jupyter_core
+- libsodium
+- markupsafe
+- marshmallow-sqlalchemy
+- marshmallow
+- mkl_fft
+- mkl_random
+- mkl-service
+- mkl
+- more-itertools
+- mypy_extensions
+- mypy
+- openblas=0.3.3
+- numpy-base=1.17.4
+- numpy=1.17.4
+- openssl
+- packaging
+- pandas
+- parso
+- pickleshare
+- pip
+- pluggy
+- prompt_toolkit
+- psutil
+- py
+- pyarrow
+- pycodestyle
+- pycparser
+- pygments
+- pyjnius
+- pymysql
+- pyopenssl
+- pyparsing
+- pyrsistent
+- pysocks
+- pytables
+- pytest-forked
+- pytest-xdist
+- pytest
+- python-dateutil
+- python=3.8.*
+- pytz
+- pyyaml
+- pyzmq
+- requests
+- scipy
+- setuptools
+- six
+- sqlite
+- toml
+- tornado
+- traitlets
+- typed-ast
+- typing_extensions
+- urllib3
+- wcwidth
+- werkzeug
+- wheel
+- xlrd
+- xlsxwriter
+- yaml
+- zeromq
+- zipp
+- plotly=4.5.*
+- jupyter
+- jupyterlab
+- pip:
+  - ruamel-yaml-clib
+  - ruamel-yaml
+  - flask-swagger-ui
+  - blackcellmagic
+  - flask-api
+  - pytest-flask
+  - ortools
+  - flask-restplus
+  - flask-restful-swagger-3
