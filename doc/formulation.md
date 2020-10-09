@@ -33,7 +33,7 @@ $$ \theta_{rt} = \eta_t \cdot \lambda_r \qquad\forall r\in\mathcal R,\,t\in\math
 
 ## 2 Decision Variables
 
-* Let $x_{rt}\in{0, 1}$ be one if the resource $r\in\mathcal R$ is assigned to perform task $t\in\mathcal T$, 0 otherwise.
+* Let $x_{rt}\in\{0, 1\}$ be one if the resource $r\in\mathcal R$ is assigned to perform task $t\in\mathcal T$, 0 otherwise.
 
 ## 3 Objective
 
@@ -53,4 +53,4 @@ $$\sum_{t\in\mathcal T} \eta_t \cdot x_{rt} \le \gamma_r \qquad\forall r\in\math
 
 Each task can only be assigned to be performed one task in the model.
 
-$$\sum_{t\in\mathcal T} x_{rt} = 1 \qquad\forall r\in\mathcal R$$
+$$\sum_{r\in\mathcal R} x_{rt} = 1 \qquad\forall t\in\mathcal T$$
